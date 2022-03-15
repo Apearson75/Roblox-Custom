@@ -1,0 +1,20 @@
+/*
+  .dark-theme .btn-common-play-game-lg {
+    background-image: linear-gradient(to right ,#13c6d8, #DB33FF);
+}
+*/ 
+
+button.btn-common-play-game-lg{
+    background-image: linear-gradient(to right ,#13c6d8, #DB33FF);
+}
+
+.btn-full-width {
+    background-image: linear-gradient(to right ,#13c6d8, #DB33FF);
+}
+
+.text-link {
+    background-image: linear-gradient(to right ,#13c6d8, #DB33FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    fontWeight: 710;
+}
