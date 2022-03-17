@@ -18,6 +18,14 @@ button.btn-common-play-game-lg{
 .btn-full-width:hover {
     box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.5);
     top: -7px;
+    background-size: 400% 400%;
+    animation: AnimationName 4s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .text-link {

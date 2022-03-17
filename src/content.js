@@ -1,4 +1,5 @@
 let header = document.getElementById("header");
+let left_bar = document.getElementsByClassName("left-col-list")[0];
 let horizontal_bar = document.getElementById("horizontal-tabs");
 let menu_name = document.getElementsByClassName("dynamic-ellipsis-item")[0];
 let buy_premium = document.getElementById("upgrade-now-button");
@@ -10,6 +11,10 @@ let item_buy = document.getElementsByClassName("btn-growth-lg")[0];
 let gamepass_buy = document.getElementsByClassName("btn-primary-lg")[0];
 
 // This appears on every page
+let github_link = document.createElement("li");
+github_link.style = "display: block;";
+github_link.innerHTML = '<a class="dynamic-overflow-container text-nav" href="https://github.com/Phoneguytech75/Roblox-Custom" id="nav-home" btr-name="sidebar_home" style=""><span class="font-header-2 dynamic-ellipsis-item">Github</span></a>';
+left_bar.prepend(github_link);
 try {    
     header.style.backgroundImage = "linear-gradient(to right ,#13c6d8, #DB33FF)";
     header.style.borderBottomLeftRadius = "10px";
