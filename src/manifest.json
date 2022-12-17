@@ -9,6 +9,12 @@
             "css": ["content.css"],
             "run_at": "document_idle",
             "all_frames": true
+        },
+        {
+            "matches": ["https://*.roblox.com/home"],
+            "js": ["homes.js"],
+            "run_at": "document_idle",
+            "all_frames": true
         }
     ],
     "permissions": [
